@@ -1,5 +1,6 @@
 import pandas as pd
 
+"""
 grades = pd.Series([87, 100, 94])
 
 print(grades)
@@ -35,3 +36,13 @@ print(grades.Wally)
 print(grades.dtype)
 
 print(grades.values)
+
+"""
+
+# Series of strings
+hardware = pd.Series(["Hammer", "Saw", "Wrench"])
+answer = hardware.str.contains("a")
+print(answer)
+
+hardware_upper = hardware.str.upper()
+print(hardware_upper)
