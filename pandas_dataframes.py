@@ -67,3 +67,5 @@ print(grades)
 
 
 print(grades.sort_values(by="Test1", axis=1, ascending=False))
+
+print(grades.T.sort_values(by="Test1", ascending=False))
